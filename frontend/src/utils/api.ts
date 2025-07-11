@@ -1,4 +1,9 @@
-const BASE_URL = import.meta.env.VITE_API_URL;
+// Dynamic API URL based on environment
+const BASE_URL = import.meta.env.VITE_API_URL || 
+  (import.meta.env.PROD 
+    ? 'https://your-backend-url.railway.app'  // Replace with your deployed backend URL
+    : 'http://localhost:8081'
+  );
 
 interface IRequestParams<T> {
   endpoint: string;

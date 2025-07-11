@@ -1,0 +1,11 @@
+{
+  "name": "linkedin-clone-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm run build",
+    "start": "npm run preview"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
