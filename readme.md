@@ -1,8 +1,51 @@
+# LinkedIn Clone Project
+
+A full-stack LinkedIn clone built with Spring Boot (Java) backend and React (TypeScript) frontend.
+
 <img src = "./screenshot.png"/>
 
-## Running the project on your machine
+## 🚀 Features
 
-### Prerequisites
+### Backend Features
+- **User Authentication**: Registration, login, email verification with JWT tokens
+- **Email Service**: Gmail SMTP integration for verification emails
+- **Feed System**: Create, read, update, delete posts and comments
+- **Messaging**: Real-time messaging between users with WebSocket support
+- **Networking**: Send/accept connection requests, manage connections
+- **Search**: Apache Lucene-powered full-text search
+- **File Upload**: Profile pictures and post attachments
+- **Notifications**: Real-time notifications system
+
+### Frontend Features
+- **Modern UI**: Responsive design with SCSS modules
+- **Authentication Flow**: Login, signup, email verification pages
+- **Feed Interface**: Post creation, commenting, liking
+- **Messaging Interface**: Real-time chat conversations
+- **Profile Management**: Edit profile, upload pictures
+- **Network Management**: Connections, invitations, search users
+- **Notifications**: Real-time notification display
+
+## 🛠 Tech Stack
+
+### Backend
+- **Framework**: Spring Boot 3.3.4
+- **Language**: Java 21
+- **Database**: H2 (development), JPA/Hibernate
+- **Security**: Spring Security, JWT
+- **Search**: Apache Lucene
+- **Email**: Spring Mail + Gmail SMTP
+- **WebSocket**: STOMP protocol
+- **Build Tool**: Gradle
+
+### Frontend
+- **Framework**: React 18
+- **Language**: TypeScript
+- **Build Tool**: Vite 6.3.5
+- **Styling**: SCSS Modules
+- **HTTP Client**: Fetch API
+- **WebSocket**: Native WebSocket API
+
+## 📋 Prerequisites
 
 Node.js (version 22 or compatible), npm (version 10 or compatible),
 Java JDK (version 21), and Docker (version 24.0.7 or compatible).
